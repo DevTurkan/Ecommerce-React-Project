@@ -1,0 +1,491 @@
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;   
+}
+.contact_headline{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 40px 0 45px 0;
+background-color: #f8f8f8;
+}
+
+.headline_text{
+    width: 50%;
+    height: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.headline_text ul{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.headline_text ul li{
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 500;
+    font-family: "Poppins";
+
+}
+
+.home{
+    color: #777777;
+}
+
+.line{
+    height: 11px;
+    width: 2px;
+    background-color: #e5e5e5;
+    margin: 0 8px;
+}
+
+.contact{
+    color:#3577f0;
+}
+
+.headline_text h1{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Poppins";
+    line-height: 1.3;
+    color: #292930;
+}
+
+.headline_icon{
+    width: 50%;
+    height: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.backicon{
+    text-align: right;
+    position: relative;
+    z-index: 1;
+}
+
+.backicon::after{
+    content: "";
+    height: 110px;
+    width: 110px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: 60px;
+    z-index: -1;
+}
+
+/* FORM */
+.form_text_div{
+width: 100%;
+display: flex;
+padding: 80px 0 0;
+}
+
+.form_div{
+width: 70%;
+padding: 0 15px;
+box-sizing: border-box;
+}
+.form_div h3{
+font-size: 28px;
+margin: 0 10px 0 0;
+font-weight: 500;
+color: #000000;
+font-family: "Poppins";
+line-height: 1.3;
+box-sizing: border-box;
+}
+    
+.form_div p{
+margin-bottom: 45px;
+margin-top: 0;
+width: 80%;
+box-sizing: border-box;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;
+color: #777777;
+font-family: "Poppins";
+
+}
+
+.form{
+width: 100%;
+}
+
+.name_phone_mail_div{
+width: 100%;
+display: flex;
+
+}
+.form_name, .form_phone, .form_mail{
+width: calc(100% / 3);
+margin: 0 0 30px;    
+height: 60px;
+box-sizing: border-box;
+position: relative;
+}
+.name1, .phone1, .mail1{
+    width: 100%;
+    height: 100%;
+}
+
+.name1, .phone1{
+  padding-right: 20px;
+}
+
+.form_name input, .form_phone input, .form_mail input {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    border: 1px solid #cbd3d9;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: #292930;
+}
+
+.name1 label, .phone1 label, .mail1 label, .form_textarea label{
+    position: absolute;
+    top: -11px;
+    left: 20px;
+    z-index: 4;
+    background: #fff;
+    padding: 0 10px;
+    margin: 0 0 6px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #777777;
+}
+.name1 span, .phone1 span, .mail1 span {
+color: #E76458;
+}
+
+.textarea_div{
+width: 100%;
+}
+
+.form_textarea{
+    width: 100%;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.form_textarea textarea{
+    width: 100%;
+    min-height: 160px;
+    border-radius: 6px;
+    resize: none;
+    padding: 20px 15px 15px 30px;
+    font-size:14px;
+    background-color: #fff;
+    border: 1px solid #CBD3D9;
+    line-height: 1.5;
+    box-sizing: border-box;
+    color: #292930;
+}
+
+.inp:focus{
+    border-color: #3577f0;
+    outline: none;
+}
+
+.btn_div{
+width: 100%;
+}
+
+.form_btn{
+    background-color:#3577f0;
+    color: #ffffff;
+    width: auto;                                 
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 700;
+    display: inline-block;
+    padding: 16px 38px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    z-index: 1;
+}
+
+.form_btn::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    transition: transform .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    box-sizing: border-box;
+    background-color:#3577f0;
+}
+.form_btn:hover::before{
+    transform: scale(1.1);
+}
+
+.btn_div p{
+    color: red;
+    margin: 20px 0 0;
+}
+
+
+.text_div{
+width: 30%;
+padding: 0 15px;
+box-sizing: border-box;              
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text:not(:last-child){
+    margin: 0 0 40px;
+}
+
+
+.text h4{
+    margin: 0 0 20px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Poppins";
+    line-height: 1.3;
+    font-size: 24px;
+}
+.span_1{
+    margin: 0 0 20px;
+}
+
+ .text span, p{
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: "Poppins";
+    color: #777777;
+    font-weight: 400;
+}
+
+.map{
+    padding: 80px 0 0;
+    width: 100%;
+    height: 588px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* RESPONSIVLIK */
+@media screen and (max-width: 575px){
+    .headline_icon {
+        display: none;
+    }
+    .headline_text{
+        max-width: 100%;
+    }
+    .contact_headline{
+        display: inline-block;
+    }
+    .headline_text h1{
+        font-size: 23px;
+    }
+
+    .form_text_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+        
+    .text_div{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;  
+    }
+
+    .name_phone_mail_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_name, .form_phone, .form_mail{
+        width: 100%;
+
+    }
+
+    .name1, .phone1{
+        padding-right: 0;
+    }
+    .form_div h3{
+        font-size: 24px;
+    }
+    .form_btn{
+       
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+    .text h4{
+        font-size: 20px;
+    }
+
+    .text span{
+        font-size: 14px;
+
+    }
+    .map{
+        padding: 60px 0 0;
+        height: 568px;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 767px){
+    .headline_icon {
+        display: none;
+    }
+    .headline_text{
+        max-width: 100%;
+    }
+    .contact_headline{
+        display: inline-block;
+    }
+    .headline_text h1{
+        font-size: 28px;
+    }
+
+
+    .form_text_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+        
+    .text_div{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;  
+    }
+
+    .name_phone_mail_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_name, .form_phone, .form_mail{
+        width: 100%;
+
+    }
+
+    .name1, .phone1{
+        padding-right: 0;
+    }
+    .form_div h3{
+        font-size: 24px;
+    }
+
+    .form_btn{
+       
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .text h4{
+        font-size: 20px;
+    }
+
+    .text span{
+        font-size: 14px;
+    }
+
+    .map{
+        padding: 60px 0 0;
+        height: 568px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container {
+        max-width: 768px;
+    }
+    .headline_text h1{
+        font-size: 34px;
+    }
+
+    .form_text_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .form_div{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+        
+    .text_div{
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;  
+    }
+
+    .name_phone_mail_div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form_name, .form_phone, .form_mail{
+        width: 100%;
+
+    }
+
+    .name1, .phone1{
+        padding-right: 0;
+    }
+    .form_div h3{
+        font-size: 26px;
+    }
+
+    .text h4{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .container {
+        max-width: 1024px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .container {
+        max-width: 1160px;
+    }
+}
+

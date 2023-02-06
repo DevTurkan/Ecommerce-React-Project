@@ -1,0 +1,50 @@
+.rightbtn{
+position: absolute;
+cursor: pointer;
+right: 40px;
+top: 50%;
+transform: translateY(-50%);
+outline: none;
+width: 50px;
+height: 50px;
+background: #F6F7FB;
+border: none;
+border-radius: 6px;
+z-index: 2;
+}
+.leftbtn{
+position: absolute;
+cursor: pointer;
+left: 40px;
+top: 50%;
+transform: translateY(-50%);
+outline: none;
+width: 50px;
+height: 50px;
+background: #F6F7FB;
+border: none;
+border-radius: 6px;
+z-index: 2;
+}
+.leftbtn i, .rightbtn i{
+    color: #777777;
+}
+
+.slide{
+    display: contents;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition:  ease-in-out 0.4s;
+}
+.slide_active{
+    opacity: 1;
+}
+
+.slide img{
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

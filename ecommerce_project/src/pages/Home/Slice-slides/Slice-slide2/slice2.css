@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+.s.swiper.swiper-initialized {
+  height: 100% !important;
+  background-color: #F9F3F0;
+}
+
+
+.s .swiper-slide {
+  background-color: #F9F3F0 !important;
+}
+
+
+.s .swiper-slide.swiper-slide-active {
+  height: 100% !important;
+  width: 350px !important;
+  width: 419px !important;
+  padding-left: 10px;
+  transition: width 1.3s, height 1.3s !important;
+  background-color: #F9F3F0 !important;
+  z-index: 9;
+
+}
+
+.s .swiper-slide.swiper-slide-next {
+  height: 100% !important;
+  width: 160px !important;
+  width: 95px !important;
+  transition: width 1.3s, height 1.3s !important;
+  position: relative;
+  margin-right: 130px !important;
+  background-color: #F9F3F0 !important;
+}
+
+
+.s .swiper-slide.swiper-slide-active::after {
+  content: "$49.00";
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 20px;
+  color: #135FAE;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: white;
+}
+
+.s .swiper-slide.swiper-slide-active::before {
+  content: "From";
+  position: absolute;
+  top: 16%;
+  left: 15%;
+  z-index: 99;
+
+  color: grey;
+
+}
+
+.s .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 30px !important;
+  background-color: #FF497C !important;
+}
+
+.s .swiper-pagination-bullet {
+  width: 24px !important;
+  height: 4px !important;
+  border-radius: 2px !important;
+  transition: width 0.5s, height 0.5s !important;
+  background-color: white !important;
+  border: 1px solid black;
+
+}
+
+
+
+
+.s .swiper-slide.swiper-slide-duplicate {
+  background-color: #F9F3F0 !important;
+}
+
+
+.s .swiper-slide.swiper-slide-duplicate.swiper-slide-prev {
+  background-color: #F9F3F0 !important;
+}
+
+
+@media screen and (max-width: 665px) {
+  .s .swiper-slide.swiper-slide-active{
+    width: 356px !important;
+  }
+}
+
+
+
+/* // tablet */
+
+@media screen and (min-width: 665px) and (max-width:992px) {
+  .s .swiper-slide.swiper-slide-active{
+    width: 360px !important;
+  }
+}
+
+
+/* // dektop */
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+  .s .swiper-slide.swiper-slide-active{
+    width: 360px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {}

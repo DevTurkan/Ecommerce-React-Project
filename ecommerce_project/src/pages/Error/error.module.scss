@@ -1,0 +1,129 @@
+.error {
+    padding: 100px 0px 50px;
+
+    .errorL {
+
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+
+        i {
+            position: relative;
+            color: white;
+            z-index: 0;
+            margin-right: 20px;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                border-radius: 50% ;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% , -50%);
+                z-index: -3;
+                background-color: #FF497C;
+            }
+
+
+        }
+        p{
+            &:nth-child(2){
+                color: #FF497C;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .errorL2{
+        p{
+            &:nth-child(1){
+                margin: 30px 0px;
+                font-size: 40px;
+                color: #292930;
+                font-weight: 500;
+            }
+
+            &:nth-child(2){
+                line-height: 30px;
+                color: #807777;
+                margin-bottom: 30px;
+                
+            }
+        }
+    }
+
+    button{
+        width: 200px;
+        height: 58px;
+        background-color: #FF497C;
+        border-radius: 5px;
+        color: white;
+        border: none;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+
+        i{
+            margin-left: 15px;
+        }
+    }
+
+    .errorImg{
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 665px) {
+
+    .error{
+
+        padding-top: 60px ;
+
+        .errorImg{
+            margin-top: 35px;
+        }
+
+    }
+
+}
+
+
+
+// tablet
+
+@media screen and (min-width: 665px) and (max-width:992px) {
+    .error{
+
+        padding-top: 60px ;
+
+        .errorImg{
+            margin-top: 35px;
+        }
+
+    }
+
+}
+
+
+// dektop
+
+@media screen and (min-width: 992px) {
+  
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  
+
+
+}

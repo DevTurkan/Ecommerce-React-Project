@@ -1,0 +1,94 @@
+.container {
+  width: 100%;
+  height: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 ;
+}
+.table{
+    width: 100%;
+}
+.table >thead th{
+    font-size: 20px;
+    text-transform: capitalize;
+   
+    color: #292930;
+    padding: 18px 5px;
+}
+
+.counter{
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+height: 130px;
+} 
+tbody > tr{
+  height: 130px;
+}
+
+tbody  img{
+  height: 110px;
+}
+
+tbody tr>:last-child{
+  padding-left: 50px;
+}
+
+td > i{
+  color: black;
+}
+.table_resp{
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .container{
+    display: none;
+  }
+  .table_resp{
+    display: block;
+  }
+  .table_resp{
+    margin: 0 auto;
+  }
+  .table_cont_resp{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+  }
+  .table_main_resp{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 20px;
+  }
+   .table_cont_resp>:first-child>  img{
+      width: 70px;
+    height: 80px;
+    margin: 10px 20px;
+  }
+  .table_main_resp>:first-child> i{
+    color: black;
+  }
+  .table_main_resp > div{
+    display: flex;
+    justify-content: space-between;
+margin: 10px 0;
+  }
+  .table_resp{
+display: flex;
+flex-direction: column;
+  }
+.table_main_resp div>:first-child{
+  color: black;
+}
+.counter_resp {
+  color: black;
+ 
+}
+.counter_resp>span {
+  margin: 0 10px;
+}
+}

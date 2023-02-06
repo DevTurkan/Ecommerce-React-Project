@@ -1,0 +1,401 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Kamran",
+      "email": "kamran@gmail.com",
+      "password": "Kamran123!",
+      "wishlist": [
+        {
+          "id": 1,
+          "name": "Playstation remote control",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
+          "price": 129.99,
+          "category": "Playstation",
+          "stock": 100
+        },
+        {
+          "id": 2,
+          "name": "Sound System",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
+          "price": 29.99,
+          "category": "Sound System",
+          "stock": 100
+        }
+      ],
+      "card": [
+        {
+          "id": 1,
+          "name": "Playstation remote control",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
+          "price": 129.99,
+          "category": "Playstation",
+          "quantity": 8
+        },
+        {
+          "id": 2,
+          "name": "Sound System",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
+          "price": 29.99,
+          "category": "Sound System",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "userName": "vusal",
+      "email": "vdurmusov@coders.education",
+      "password": "1453Vusal",
+      "card": [
+        {
+          "id": 10,
+          "name": "Smart Watch",
+          "firstImg": "https://ae04.alicdn.com/kf/Sa7ca866fe40f4e1cb1f4e249f1ded8eaJ/Y20-P8-Plus-IP68.jpg_640x640.jpg",
+          "price": 729.99,
+          "category": "Smart Watch",
+          "quantity": 8
+        },
+        {
+          "id": 6,
+          "name": "Camera",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png",
+          "price": 29.99,
+          "category": "Camera",
+          "quantity": 4
+        }
+      ],
+      "wishlist": [],
+      "id": 2
+    },
+    {
+      "userName": "vusal",
+      "email": "vusal.durmushov06@gmail.com",
+      "password": "1453Vusal",
+      "card": [
+        {
+          "id": 2,
+          "name": "Sound System",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
+          "price": 29.99,
+          "category": "Sound System",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "RGB keyboard",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png",
+          "price": 729.99,
+          "category": "RGB Keyboard",
+          "quantity": 0
+        }
+      ],
+      "wishlist": [],
+      "id": 3
+    },
+    {
+      "userName": "vusal",
+      "email": "vusal.durmushov06@gmail.com",
+      "password": "1453Vusal",
+      "card": [],
+      "wishlist": [],
+      "id": 4
+    },
+    {
+      "userName": "vusal",
+      "email": "vdurmusov@coders.education",
+      "password": "1453Vusal",
+      "card": [],
+      "wishlist": [],
+      "id": 5
+    },
+    {
+      "userName": "vusal",
+      "email": "vdurmusov@coders.education",
+      "password": "1453Vusal",
+      "card": [],
+      "wishlist": [],
+      "id": 6
+    },
+    {
+      "userName": "Turkaan",
+      "email": "hasanovaturkan2104@mail.ru",
+      "password": "Turk12345!",
+      "card": [
+        {
+          "id": 5,
+          "name": "Headphone",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-07.png",
+          "price": 1229.99,
+          "category": "Headphone",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [
+        {
+          "id": 1,
+          "name": "Playstation remote control",
+          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
+          "price": 329.99,
+          "category": "Playstation",
+          "stock": 100
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userName": "User1",
+      "email": "userr@mail.ru",
+      "password": "12345r6789o",
+      "card": [
+        {
+          "id": 14,
+          "name": "Tablet",
+          "firstImg": "https://ae04.alicdn.com/kf/Saf10a6b914564dbc8555448fa1c5811cy/DONGPAD-Android-11-0-8-128-11-6-4k-HD-Snapdragon.jpg_640x640.jpg",
+          "price": 529.7,
+          "category": "Tablet",
+          "quantity": 1
+        }
+      ],
+      "wishlist": [],
+      "id": 8
+    }
+  ],
+  "selectedUser": {
+    "userName": "User1",
+    "email": "userr@mail.ru",
+    "password": "12345r6789o",
+    "card": [],
+    "wishlist": [],
+    "id": 8
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Playstation remote control",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 329.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Playstation",
+      "color": "white"
+    },
+    {
+      "id": 2,
+      "name": "Sound System",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-05.png",
+      "price": 39.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Sound System",
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "name": "RGB keyboard",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png",
+      "price": 729.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "RGB Keyboard",
+      "color": "blue"
+    },
+    {
+      "id": 4,
+      "name": "Mouse",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-06.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-06.png",
+      "price": 49.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Mouse",
+      "color": "white"
+    },
+    {
+      "id": 5,
+      "name": "Headphone",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-07.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-07.png",
+      "price": 1229.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Headphone",
+      "color": "blue"
+    },
+    {
+      "id": 6,
+      "name": "Camera",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png",
+      "price": 29.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Camera",
+      "color": "white"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Headset",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-05.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png",
+      "price": 38,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Sound System",
+      "color": "white"
+    },
+    {
+      "id": 9,
+      "name": "Playstation remote control",
+      "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 529.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Playstation",
+      "color": "white"
+    },
+    {
+      "id": 10,
+      "name": "Smart Watch",
+      "firstImg": "https://ae04.alicdn.com/kf/Sa7ca866fe40f4e1cb1f4e249f1ded8eaJ/Y20-P8-Plus-IP68.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 729.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Smart Watch",
+      "color": "white"
+    },
+    {
+      "id": 11,
+      "name": "Tablet",
+      "firstImg": "https://ae04.alicdn.com/kf/S02a9f904da0944f6ace3f8721af39dd0F/P80-8-Android-10-4G-Wi-Fi-6-128-1280-800.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 600.99,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Tablet",
+      "color": "white"
+    },
+    {
+      "id": 12,
+      "name": "Tablet",
+      "firstImg": "https://ae01.alicdn.com/kf/S9e0b2d0c33d24aa4887366fc0068f25by.jpg?width=1000&height=1000&hash=2000",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 999.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Tablet",
+      "color": "white"
+    },
+    {
+      "id": 13,
+      "name": "Phone",
+      "firstImg": "https://ae01.alicdn.com/kf/S7d515c0eeb9d47d99564cff6dde978deH.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 609.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Phone",
+      "color": "white"
+    },
+    {
+      "id": 14,
+      "name": "Tablet",
+      "firstImg": "https://ae04.alicdn.com/kf/Saf10a6b914564dbc8555448fa1c5811cy/DONGPAD-Android-11-0-8-128-11-6-4k-HD-Snapdragon.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 529.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Tablet",
+      "color": "white"
+    },
+    {
+      "id": 15,
+      "name": "Phone",
+      "firstImg": "https://ae04.alicdn.com/kf/Sc5aea57fe23a46dc8290b5e26013c3cfK/Nothing-Phone-1-Qualcomm-Snapdragon-778G.png_640x640.png",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 29.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Phone",
+      "color": "white"
+    },
+    {
+      "id": 16,
+      "name": "Phone",
+      "firstImg": "https://ae04.alicdn.com/kf/Se6d45af48fec404c8a0def9650d045baB/HONOR-X9-HONOR-RAM-Turbo-4800-66-SuperCharge-90.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 489.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Phone",
+      "color": "white"
+    },
+    {
+      "id": 17,
+      "name": "Smart Watch",
+      "firstImg": "https://ae04.alicdn.com/kf/S17e5b16a6c964880b27fd21a1586f92fS/Xiaomi-Samsung-Android-2022.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 339.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Smart Watch",
+      "color": "white"
+    },
+    {
+      "id": 18,
+      "name": "Smart Watch",
+      "firstImg": "https://ae04.alicdn.com/kf/S94ff1ab110044873aa2961f76d0b97f3M/2022-Bluetooth.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 739.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Smart Watch",
+      "color": "white"
+    },
+    {
+      "id": 19,
+      "name": "Mouse",
+      "firstImg": "https://ae01.alicdn.com/kf/S05ce48a47b284ac6a36c9af8eb3730b9f.jpg?width=1000&height=1000&hash=2000",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 439.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Smart Watch",
+      "color": "white"
+    },
+    {
+      "id": 20,
+      "name": "Headphone",
+      "firstImg": "https://ae04.alicdn.com/kf/S5cc85f3914414843bbeaff0a29458054Y/A6s-Bluetooth-TWS-E7s-Touch-Mini.jpg_640x640.jpg",
+      "secondImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-08.png",
+      "price": 139.7,
+      "stock": 100,
+      "saled": 30,
+      "discountPercent": 0,
+      "category": "Headphone",
+      "color": "white"
+    }
+  ]
+}

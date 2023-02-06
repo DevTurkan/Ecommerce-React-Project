@@ -1,0 +1,241 @@
+.whish {
+  padding: 80px 0px;
+}
+.whish .whishl p:nth-child(1) {
+  padding: 0px 15px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #292930;
+}
+.whish .whishR {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.whish .whishR .x {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.whish .whishR .x i {
+  color: black;
+  font-size: 10px;
+  position: relative;
+  z-index: 0;
+  transition: 0.3s;
+}
+.whish .whishR .x i::after {
+  position: absolute;
+  content: "";
+  background-color: #F6F7FB;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  z-index: -3;
+  transition: 0.3s;
+}
+.whish .whishR .x i:hover::after {
+  background-color: red;
+}
+.whish .whishR .x i:hover {
+  color: white;
+}
+.whish .whishR .whishImg {
+  display: flex;
+  align-items: center;
+}
+.whish .whishR .whishImg img {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+.whish .whishR .whishImg p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #292930;
+}
+.whish .whishR .whishP {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 500;
+}
+.whish .whishR .whishS {
+  color: #777777;
+  font-size: 20px;
+  font-weight: 500;
+}
+.whish .whishR .whisha {
+  display: flex;
+  justify-content: end;
+}
+.whish .whishR .whisha button {
+  border: 1px solid #afafaf;
+  background-color: white;
+  color: black;
+  width: 119px;
+  height: 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.whish .whishR .whisha button:hover {
+  background: #3577F0;
+  color: white;
+}
+.whish .whishrl {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #F6F7FB;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.whish .whishrl .whishP p {
+  font-size: 19px;
+  font-weight: 500;
+  color: #292930;
+}
+
+@media screen and (max-width: 665px) {
+  .whish .whishl p:nth-child(1) {
+    font-size: 18px;
+    color: #292930;
+  }
+  .whish .whishR {
+    display: none;
+  }
+  .whish .whishrl {
+    display: none;
+  }
+  .whish .whishMr1 {
+    margin-bottom: 35px;
+  }
+  .whish .whishMr1 .whishMImg img {
+    width: 70px;
+    height: 80px;
+  }
+  .whish .whishMr1 .whishM1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .whish .whishMr1 .whishM1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    height: 0.1px;
+    background-color: rgba(174, 169, 169, 0.5921568627);
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    color: #292930;
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(2) i {
+    color: black;
+    font-size: 10px;
+    position: relative;
+    z-index: 0;
+    transition: 0.3s;
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(2) i::after {
+    position: absolute;
+    content: "";
+    background-color: #F6F7FB;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: -3;
+    transition: 0.3s;
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(2) i:hover::after {
+    background-color: red;
+  }
+  .whish .whishMr1 .whishM1 p:nth-child(2) i:hover {
+    color: white;
+  }
+  .whish .whishMr1 .whishM2 {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .whish .whishMr1 .whishM2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 92%;
+    height: 0.1px;
+    background-color: rgba(174, 169, 169, 0.5921568627);
+  }
+  .whish .whishMr1 .whishM2 p:nth-child(1) {
+    font-size: 13px;
+    color: #292930;
+    font-weight: 500;
+  }
+  .whish .whishMr1 .whishM2 p:nth-child(2) {
+    color: #777777;
+    font-weight: 500;
+  }
+  .whish .whishMr1 .whishM3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+  }
+  .whish .whishMr1 .whishM3 button {
+    border: 1px solid #afafaf;
+    background-color: white;
+    color: black;
+    width: 119px;
+    height: 44px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .whish .whishMr1 .whishM3 button:hover {
+    background: #3577F0;
+    color: white;
+  }
+}
+@media screen and (min-width: 665px) and (max-width: 992px) {
+  .whish .whishl p:nth-child(1) {
+    font-size: 20px;
+  }
+  .whish .whishrl .whishP p {
+    font-size: 16px;
+  }
+  .whish .whishR .whishImg p {
+    font-size: 16px;
+  }
+  .whish .whishR .whishP p {
+    font-size: 16px;
+  }
+  .whishMr1 {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .whishMr1 {
+    display: none;
+  }
+}/*# sourceMappingURL=whishList.module.css.map */

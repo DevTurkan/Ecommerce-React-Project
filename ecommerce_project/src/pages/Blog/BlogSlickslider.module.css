@@ -1,0 +1,11 @@
+.container_slider{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background-color: antiquewhite;
+position: relative;
+margin: 0 0 30px;
+
+}

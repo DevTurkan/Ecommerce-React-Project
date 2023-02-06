@@ -1,0 +1,72 @@
+.content{
+    width: 95%;
+}
+
+.ch_img{
+    width:90%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 0 15px;
+}
+
+.childd img{
+width:100%;
+transition: 0.3s;
+}
+
+.ch_img:hover img{
+    transform: scale(1.1);
+}
+
+.child_text span{
+color:#777777;
+font-family: "Poppins";
+line-height: 1.7;
+font-weight: 400;
+font-size: 14px;
+}
+
+.child_text h5{
+color:#292930;
+font-family: "Poppins";
+line-height: 1.3;
+font-weight: 600;
+font-size: 20px;
+margin: 0;
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 767px){
+    .content{
+        min-width: 89%;
+        max-width: 89%;
+
+
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .content{
+        max-width: 73%;
+        min-width: 73%;
+
+    }
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 85%;
+        min-width: 85%;
+
+    }
+ 
+
+}
+@media screen and (min-width: 1200px){
+
+    .content{
+        max-width: 95%;
+        min-width: 73%;
+
+    }
+
+}

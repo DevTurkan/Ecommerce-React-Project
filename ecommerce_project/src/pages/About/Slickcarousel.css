@@ -1,0 +1,17 @@
+.slick-prev:before, .slick-next:before{
+    font-family: auto;
+    font-weight: 900;
+    color: #777777;
+}
+
+.slick-prev, .slick-next{
+    top: -22%;
+}
+
+.slick-prev{
+    left: 80%;
+}
+
+.slick-next{
+    right: 10%;
+}
