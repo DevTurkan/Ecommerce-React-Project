@@ -1,148 +1,6 @@
 {
   "users": [
     {
-      "id": 1,
-      "userName": "Kamran",
-      "email": "kamran@gmail.com",
-      "password": "Kamran123!",
-      "wishlist": [
-        {
-          "id": 1,
-          "name": "Playstation remote control",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
-          "price": 129.99,
-          "category": "Playstation",
-          "stock": 100
-        },
-        {
-          "id": 2,
-          "name": "Sound System",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
-          "price": 29.99,
-          "category": "Sound System",
-          "stock": 100
-        }
-      ],
-      "card": [
-        {
-          "id": 1,
-          "name": "Playstation remote control",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
-          "price": 129.99,
-          "category": "Playstation",
-          "quantity": 8
-        },
-        {
-          "id": 2,
-          "name": "Sound System",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
-          "price": 29.99,
-          "category": "Sound System",
-          "quantity": 1
-        }
-      ]
-    },
-    {
-      "userName": "vusal",
-      "email": "vdurmusov@coders.education",
-      "password": "1453Vusal",
-      "card": [
-        {
-          "id": 10,
-          "name": "Smart Watch",
-          "firstImg": "https://ae04.alicdn.com/kf/Sa7ca866fe40f4e1cb1f4e249f1ded8eaJ/Y20-P8-Plus-IP68.jpg_640x640.jpg",
-          "price": 729.99,
-          "category": "Smart Watch",
-          "quantity": 8
-        },
-        {
-          "id": 6,
-          "name": "Camera",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-03.png",
-          "price": 29.99,
-          "category": "Camera",
-          "quantity": 4
-        }
-      ],
-      "wishlist": [],
-      "id": 2
-    },
-    {
-      "userName": "vusal",
-      "email": "vusal.durmushov06@gmail.com",
-      "password": "1453Vusal",
-      "card": [
-        {
-          "id": 2,
-          "name": "Sound System",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-04.png",
-          "price": 29.99,
-          "category": "Sound System",
-          "quantity": 1
-        },
-        {
-          "id": 3,
-          "name": "RGB keyboard",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-02.png",
-          "price": 729.99,
-          "category": "RGB Keyboard",
-          "quantity": 0
-        }
-      ],
-      "wishlist": [],
-      "id": 3
-    },
-    {
-      "userName": "vusal",
-      "email": "vusal.durmushov06@gmail.com",
-      "password": "1453Vusal",
-      "card": [],
-      "wishlist": [],
-      "id": 4
-    },
-    {
-      "userName": "vusal",
-      "email": "vdurmusov@coders.education",
-      "password": "1453Vusal",
-      "card": [],
-      "wishlist": [],
-      "id": 5
-    },
-    {
-      "userName": "vusal",
-      "email": "vdurmusov@coders.education",
-      "password": "1453Vusal",
-      "card": [],
-      "wishlist": [],
-      "id": 6
-    },
-    {
-      "userName": "Turkaan",
-      "email": "hasanovaturkan2104@mail.ru",
-      "password": "Turk12345!",
-      "card": [
-        {
-          "id": 5,
-          "name": "Headphone",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-07.png",
-          "price": 1229.99,
-          "category": "Headphone",
-          "quantity": 1
-        }
-      ],
-      "wishlist": [
-        {
-          "id": 1,
-          "name": "Playstation remote control",
-          "firstImg": "https://new.axilthemes.com/demo/template/etrade/assets/images/product/electric/product-01.png",
-          "price": 329.99,
-          "category": "Playstation",
-          "stock": 100
-        }
-      ],
-      "id": 7
-    },
-    {
       "userName": "User1",
       "email": "userr@mail.ru",
       "password": "12345r6789o",
@@ -157,7 +15,7 @@
         }
       ],
       "wishlist": [],
-      "id": 8
+      "id": 1
     }
   ],
   "selectedUser": {
@@ -166,7 +24,7 @@
     "password": "12345r6789o",
     "card": [],
     "wishlist": [],
-    "id": 8
+    "id": 1
   },
   "products": [
     {
